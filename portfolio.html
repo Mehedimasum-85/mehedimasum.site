@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#03060d" />
+<meta name="description" content="Portfolio of Md. Hasan Abdullah Masum, Sr. Graphic Designer: brand identity, social media, advertising, print, and video work." />
+<title>Portfolio | Md. Hasan Abdullah Masum</title>
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo" aria-label="Md. Hasan Abdullah Masum, home">MASUM</a>
+    <nav id="primary-nav" class="nav__links" aria-label="Primary">
+      <ul><li><a href="index.html">Home</a></li><li><a href="portfolio.html" class="active" aria-current="page">Portfolio</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+      <div class="nav__cta-mobile"><a class="btn btn--primary" href="contact.html">Let's Work Together</a></div>
+    </nav>
+    <div class="nav__cta"><a class="btn btn--primary" href="contact.html">Let's Work Together</a></div>
+    <button type="button" class="nav__toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="hero page-hero" aria-labelledby="page-title">
+  <span class="pf-orb pf-orb--a" aria-hidden="true"></span><span class="pf-orb pf-orb--b" aria-hidden="true"></span>
+  <div class="container">
+    <h1 id="page-title">My Portfolio</h1>
+    <span class="pf-hero-line" aria-hidden="true"></span>
+    <p class="hero__intro">A collection of creative work focused on building brands, communicating ideas, and creating impactful visual experiences.</p>
+  </div>
+</section>
+
+<div class="ticker" id="ticker" aria-hidden="true"></div>
+
+<section class="section gallery" aria-labelledby="gallery-title">
+  <h2 id="gallery-title" class="visually-hidden">Project gallery</h2>
+  <div class="pf-bar">
+    <div class="container pf-bar__inner">
+      <div class="filters" id="filters" role="group" aria-label="Filter projects by category"></div>
+    </div>
+  </div>
+  <div class="container">
+    <p class="gallery-count" id="gallery-count" aria-live="polite"></p>
+    <div class="pf-gallery" id="gallery"></div>
+    <noscript><p class="gallery-empty">Please turn on JavaScript to view the project gallery.</p></noscript>
+  </div>
+</section>
+
+<section class="cta" aria-labelledby="cta-title">
+  <div class="container cta__inner">
+    <h2 id="cta-title">Have a Project in Mind?</h2>
+    <p>Let's create something meaningful together.</p>
+    <a class="btn btn--primary" href="contact.html">Let's Work Together</a>
+  </div>
+</section>
+
+<dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title">
+  <div class="lb__stage" id="lb-stage" role="group" aria-roledescription="carousel" aria-label="Project images">
+    <img class="lb__bg" id="lb-bg" src="" alt="" aria-hidden="true" />
+    <div class="lb__track" id="lb-track"></div>
+    <span class="lb__counter" id="lb-img-count" aria-live="polite"></span>
+    <button type="button" class="lb__arrow lb__arrow--prev" id="lb-prev-img" aria-label="Previous image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <button type="button" class="lb__arrow lb__arrow--next" id="lb-next-img" aria-label="Next image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+    <div class="lb__dots" id="lb-dots"></div>
+    <button type="button" class="btn btn--ghost lightbox__close" id="lightbox-close">Close</button>
+  </div>
+  <div class="lightbox__bar">
+    <div>
+      <p class="lightbox__cat" id="lightbox-cat"></p>
+      <h2 id="lightbox-title"></h2>
+      <span class="project__badge lightbox__badge" id="lightbox-badge">Placeholder</span>
+    </div>
+    <div class="lightbox__nav">
+      <span id="lightbox-count" class="lightbox__count"></span>
+      <button type="button" class="btn btn--ghost" id="lightbox-prev" aria-label="Previous project">Previous project</button>
+      <button type="button" class="btn btn--ghost" id="lightbox-next" aria-label="Next project">Next project</button>
+    </div>
+  </div>
+</dialog>
+</main>
+<footer class="footer">
+  <div class="container footer__grid">
+    <div><p class="footer__name">Md. Hasan Abdullah Masum</p><p class="footer__role">Sr. Graphic Designer</p></div>
+    <nav aria-label="Footer"><ul class="footer__list"><li><a href="index.html">Home</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+    <div class="footer__contact">
+      <p class="footer__heading">Contact</p>
+      <ul>
+        <li><span>Mobile</span><a href="tel:+8801995768229">+8801995768229</a></li>
+        <li><span>Email</span><a href="mailto:mehedimasum85@gmail.com">mehedimasum85@gmail.com</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/md-hasan-abdullah-masum-7a047827a" target="_blank" rel="noopener noreferrer">View my profile</a></li>
+      </ul>
+    </div>
+    <!-- SOCIAL LINKS: add your real profile URLs here when ready, e.g.
+    <ul class="footer__list" aria-label="Social links">
+      <li><a href="https://www.behance.net/your-name" target="_blank" rel="noopener noreferrer">Behance</a></li>
+    </ul> -->
+  </div>
+  <div class="container footer__legal"><p>&copy; <span id="year">2026</span> Md. Hasan Abdullah Masum. All rights reserved.</p></div>
+</footer>
+<script src="js/portfolio-data.js"></script>
+<script src="js/portfolio.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
